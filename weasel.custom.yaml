@@ -6,21 +6,22 @@ patch:
     color_scheme: catppuccin_latte
     color_scheme_dark: catppuccin_macchiato
     font_face: "Microsoft YaHei"
-    label_font_face: "Microsoft YaHei" 
+    label_font_face: "Microsoft YaHei"
     comment_font_face: "Microsoft YaHei"
     font_point: 14
-    label_font_point: 14 
+    label_font_point: 14
     comment_font_point: 14
-    fullscreen: false 
+    fullscreen: false
     horizontal: true
-    label_format: "%s"
+    label_format: "%s %@ "
     mark_text: ""
     ascii_tip_follow_cursor: false
     enhanced_position: false
     display_tray_icon: false
     antialias_mode: default
     candidate_abbreviate_length: 0
-    # mouse_hover_ms: 0 # 弃用
+    inline_preedit: false
+    preedit_type: composition
     hover_type: none
     paging_on_scroll: true
     click_to_capture: false
@@ -37,7 +38,7 @@ patch:
       margin_x: 12
       margin_y: 12
       spacing: 10
-      candidate_spacing: 5
+      candidate_spacing: 10
       hilite_spacing: 4
       hilite_padding: 2
       shadow_offset_x: 4
