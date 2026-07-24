@@ -3,24 +3,49 @@ patch:
   show_notifications_when: growl_is_running        # 状态通知，默认装有Growl时显示，全开(always)/全关(never)
 
   style:
-    inline_preedit: true                           # 非内嵌编码行
-
-    color_scheme: catppuccin_latte                 # macos明亮主题
-    color_scheme_dark: catppuccin_mocha            # macos黑暗主题
-
-    candidate_list_layout: linear                  # 候选框样式，默认stacked，水平线型(linear)/垂直堆叠（stacked）
-    text_orientation: horizontal                   # 候选框文字方向，默认horizontal，横排自左至右(horizontal)/竖排自右至左(vertical)
-
-    candidate_format: "%c %@ "                     # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
-    corner_radius: 6                               # 窗口圆角
-    hilited_corner_radius: 5                       # 高亮圆角
-    line_spacing: 10                               # 行间距(适用于竖排)
-    border_height: 1                               # 窗口上下高度
-    border_width: 1                                # 窗口左右宽度
-    font_face: "Microsoft YaHei"                   # 候选词字体
-    font_point: 12                                 # 候选字大小
-    label_font_point: 12                           # 候选编号大小
-
+    color_scheme: catppuccin_latte
+    color_scheme_dark: catppuccin_macchiato
+    font_face: "Microsoft YaHei"
+    label_font_face: "Microsoft YaHei" 
+    comment_font_face: "Microsoft YaHei"
+    font_point: 14
+    label_font_point: 14 
+    comment_font_point: 14
+    fullscreen: false 
+    horizontal: true
+    label_format: "%s"
+    mark_text: ""
+    ascii_tip_follow_cursor: false
+    enhanced_position: false
+    display_tray_icon: false
+    antialias_mode: default
+    candidate_abbreviate_length: 0
+    # mouse_hover_ms: 0 # 弃用
+    hover_type: none
+    paging_on_scroll: true
+    click_to_capture: false
+    layout:
+      baseline: 0
+      linespacing: 0
+      align_type: center
+      max_height: 0
+      max_width: 0
+      min_height: 0
+      min_width: 160
+      type: horizontal
+      border_width: 3
+      margin_x: 12
+      margin_y: 12
+      spacing: 10
+      candidate_spacing: 5
+      hilite_spacing: 4
+      hilite_padding: 2
+      shadow_offset_x: 4
+      shadow_offset_y: 4
+      shadow_radius: 0
+      corner_radius: 4
+      round_corner: 4
+      
   # 皮肤主题，颜色参数均使用(#aabbggrr)
   preset_color_schemes:
     catppuccin_latte:
