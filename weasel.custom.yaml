@@ -13,7 +13,7 @@ patch:
     comment_font_point: 14
     fullscreen: false
     horizontal: true
-    label_format: "%s %@ "
+    label_format: "%s "
     mark_text: ""
     ascii_tip_follow_cursor: false
     enhanced_position: false
