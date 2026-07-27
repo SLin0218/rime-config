@@ -10,10 +10,3 @@ patch:
     Shift_R: noop
     Control_L: noop
     Control_R: noop
-  "key_binder/bindings":
-    - when: always
-      accept: Shift+space
-      toggle: noop
-    - when: always
-      accept: Control+j
-      toggle: noop
