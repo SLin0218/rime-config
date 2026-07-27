@@ -34,6 +34,9 @@ patch:
     - when: has_menu
       accept: bracketright
       send: Page_Down
-
-
-
+    - when: always
+      accept: "Shift+space"
+      toggle: noop
+    - when: always
+      accept: "Ctrl+j"
+      toggle: noop
